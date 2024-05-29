@@ -4,7 +4,7 @@ HISTTIMEFORMAT="%d/%m/%y %T "
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
+# log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWCOLORHINTS=1
